@@ -1,43 +1,78 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Portfolio | David Guindon</title>
-  </head>
-  <body>
-    <header>
-      <h1>David Guindon</h1>
-      <p class='slogan' >UX person from my hometown.</p>
-    </header>
-    <main>
-      <div class="Project Featured Project">
-        <img src="" alt="http://lorempixel.com/350/260/abstract/placeholder-1">
-        <h2>Featured Project Name</h2>
-        <p>Project Description Text</p>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Material Design Lite -->
+  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.grey-lime.min.css">
+  <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="styles/main.css">
+  <!-- Font Awesome -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <title>Portfolio | David Guindon</title>
+</head>
+<body>
+  <header class="mdl-layout__header mdl-layout__header--transparent">
+    <h1>David Guindon</h1>
+    <p class='slogan' >UX person from my hometown</p>
+  </header>
+  <main class="mdl-layout__content mdl-grid">
+    <div class="project featured-project mdl-grid mdl-cell mdl-cell--12-col mdl-cell--4-col-tablet mdl-card mdl-shadow--4dp">
+      <div class="mdl-cell mdl-cell--5-col mdl-cell--12-col-tablet">
+        <img src="http://lorempixel.com/q/350/260/nature/Featured Project" alt="Featured Picture"/>
       </div>
-      <div class="Project Featured Project">
-        <img src="" alt="http://lorempixel.com/350/260/abstract/placeholder-2">
-        <h2>Featured Project Name</h2>
-        <p>Project Description Text</p>
+      <div class="mdl-cell mdl-cell--7-col">
+        <h2 class="mdl-card__title-text">Featured Project Name</h2>
+        <p class="project-description mdl-card__supporting-text">Project description text</p>
+        <p class="project-description mdl-card__supporting-text">Project description text</p>
+        <p class="project-description mdl-card__supporting-text">Project description text</p>
       </div>
-      <div class="Project Featured Project">
-        <img src="" alt="http://lorempixel.com/350/260/abstract/placeholder-3">
-        <h2>Featured Project Name</h2>
-        <p>Project Description Text</p>
+    </div>
+    <div class="project mdl-cell mdl-card mdl-shadow--4dp">
+      <div>
+        <img src="http://lorempixel.com/q/350/260/nature/Project 1" alt="project screenshot"/>
       </div>
-      <div class="Project Featured Project">
-        <img src="" alt="http://lorempixel.com/350/260/abstract/placeholder-4">
-        <h2>Featured Project Name</h2>
-        <p>Project Description Text</p>
+      <div class="mdl-card__title">
+        <h2 class="mdl-card__title-text">Project Name</h2>
       </div>
-      <footer>
-       <ul>
-         <li> <a href="{Your LinkedIn URL}">LinkedIn</a> </li>
-         <li> <a href="{Your GitHub Profile URL}">GitHub</a> </li>
-         <li> <a href="{Your Facebook Profile URL}">Facebook</a> </li>
-         <li> <a href="{Your Twitter URL}">Twitter</a> </li>
-         <li> <a href="mailto:{Your email address}">Email</a> </li>
-       </ul>
-     </footer>
-    </main>
-  </body>
+      <div class="mdl-card__supporting-text">Project description text</div>
+    </div>
+
+    <div class="project mdl-cell mdl-card mdl-shadow--4dp">
+      <div>
+        <img src="http://lorempixel.com/q/350/260/nature/Project 2" alt="project screenshot"/>
+      </div>
+      <div class="mdl-card__title">
+        <h2 class="mdl-card__title-text">Project Name</h2>
+      </div>
+      <div class="mdl-card__supporting-text">Project description text</div>
+    </div>
+
+    <div class="project mdl-cell mdl-card mdl-shadow--4dp">
+      <div>
+        <img src="http://lorempixel.com/q/350/260/nature/Project 3" alt="project screenshot"/>
+      </div>
+      <div class="mdl-card__title">
+        <h2 class="mdl-card__title-text">Project Name</h2>
+      </div>
+      <div class="mdl-card__supporting-text">Project description text</div>
+    </div>
+    <footer class="mdl-mini-footer">
+      <ul class="mdl-mini-footer__link-list">
+        <li>
+          <a href="{Your GitHub Profile URL}">
+            <i class="fa fa-github-square" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li>
+          <a href="mailto:magicemail@email.com">
+            <i class="fa fa-envelope-square" aria-hidden="true"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+  </main>
+</body>
 </html>
